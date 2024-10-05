@@ -18,7 +18,6 @@
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
@@ -29,7 +28,10 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-title" type="string" value=""/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/DyOS-icon.png"/>
+    </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
     </property>
@@ -44,12 +46,12 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “spectrumsetup-f1” active: spectrumsetup-f1 (61%)"/>
+        <value type="string" value="wi-fi network connection “spectrumsetup-f1” active: spectrumsetup-f1 (60%)"/>
+        <value type="string" value="wi-fi network connection “spectrumsetup-f1” active: spectrumsetup-f1 (69%)"/>
+        <value type="string" value="wi-fi network connection “spectrumsetup-f1” active: spectrumsetup-f1 (62%)"/>
         <value type="string" value="no network connection"/>
       </property>
-    </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
